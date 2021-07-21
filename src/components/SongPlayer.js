@@ -33,7 +33,6 @@ const useStyles = makeStyles((theme) => ({
   },
   controls: {
     display: "flex",
-    flexDirection: "column",
     alignItems: "center",
     paddingLeft: theme.spacing(1),
     paddingRight: theme.spacing(1),
@@ -130,9 +129,6 @@ function SongPlayer() {
             </IconButton>
             <Typography variant="subtitle1" component="p" color="textSecondary">
               {formatDuration(playedSeconds)}
-            </Typography>
-            <Typography variant="subtitle1" component="p" color="textSecondary">
-              {playedSeconds}
             </Typography>
           </div>
           <Slider
