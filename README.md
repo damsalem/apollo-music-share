@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# Apollo Music Share
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a simple music sharing app.
+
+## How to Use It
+
+1. Copy/paste a YouTube or SoundCloud link to a song into the input and click on [Add +]
+2. Song information is automatically populated. Edit as needed so no values are empty.
+3. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 

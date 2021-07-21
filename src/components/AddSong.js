@@ -127,10 +127,11 @@ function AddSong() {
   }
 
   function handleError(field) {
-    return error?.graphQLErrors[0].extensions.path.includes(field);
+    return error?.networkError?.extensions?.path.includes(field);
   }
 
   const { thumbnail, title, artist } = song;
+  console.dir(error);
   return (
     <div className={classes.container}>
       <Dialog
