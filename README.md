@@ -28,4 +28,4 @@ Click on the trash icon (aka [Delete] button) to remove a song from the queue.
 - The UI was built using [Material UI](https://material-ui.com/)
 - The player was built using [ReactPlayer](https://www.npmjs.com/package/react-player)
 - The backend was built using Hasura (GraphQL)
-- The frontend and backend were connected using (ApolloGraphQL)[https://www.apollographql.com/]
+- The frontend and backend were connected using [ApolloGraphQL](https://www.apollographql.com/)
